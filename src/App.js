@@ -1,18 +1,18 @@
 import React from 'react'
 import { ReactDOM } from 'react'
-import { Router, Routes, Route } from 'react'
-import Home from './components/home/home'
-import Resume from './components/resume/resume'
+import { BrowserRouter as Router, Route, Routes, Link } from 'react-router-dom'
+import Home from './pages/home/home'
+import Resume from './pages/resume/resume'
 
 export default function App() {
   return (
-    <>
-    <Router />
-      <Routes />
-        <Route to='/' element={<Home />} />
-        <Route to='/resume' element={<Resume />} /> 
-      <Routes />
-    <Router />
-    </>
+    <div>
+      <Router>
+        <Routes>
+          <Route to='/' element={<Home />} />
+          <Route to='/resume' element={<Resume />} />
+        </Routes>
+      </Router>
+    </div>
   )
 }
