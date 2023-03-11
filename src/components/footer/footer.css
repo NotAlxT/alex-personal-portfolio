@@ -1,0 +1,7 @@
+.footer-wrapper{
+    display: flex;
+    margin: 5px;
+    width: auto;
+    height: 10rem;
+    background-color: rgb(161, 161, 161);
+}
