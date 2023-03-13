@@ -1,7 +1,26 @@
+*{
+    margin: none;
+}
 .footer-wrapper{
-    display: flex;
+    display: flexbox;
     margin: 5px;
-    width: auto;
     height: 10rem;
-    background-color: rgb(161, 161, 161);
+    background-color: #26272b;
+    justify-content: center;
+}
+
+.footer-aboutMe{
+    border-top: solid 1px gray;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: none;
+}
+
+.footer-contact{
+    border-top: solid 1px gray;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+    margin: none;
 }
