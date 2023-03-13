@@ -1,5 +1,6 @@
 *{
     margin: none;
+    padding: none;
 }
 .footer-wrapper{
     display: flexbox;
@@ -8,6 +9,7 @@
     background-color: #26272b;
     justify-content: center;
 }
+.footer-aboutMe-container
 
 .footer-aboutMe{
     border-top: solid 1px gray;
