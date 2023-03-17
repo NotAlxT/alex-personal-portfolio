@@ -14,7 +14,7 @@
     background: linear-gradient(90deg, #000000, #464646);
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
     transition: all 0.6s ease-in-out;
-    opacity: 100%;
+    opacity: 80%;
   }
   #active:checked ~ .nav-wrapper{
     left: 0;

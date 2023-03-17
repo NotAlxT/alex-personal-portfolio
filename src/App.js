@@ -9,6 +9,7 @@ import Nav from './components/navbar/nav.jsx';
 import Footer from './components/footer/footer.jsx';
 import Projects from './pages/projects/projects';
 import Contact from './pages/contact/contact';
+import Calculator from './pages/projects/calculator/calculator.jsx'
 
 export default function App() {
   return (
@@ -18,7 +19,8 @@ export default function App() {
           <Route path='/' element={<> <Nav /> <Outlet /> <Footer /> </>}>
             <Route path='/' element={<Home />} />
             <Route path='/resume' element={<Resume />} />
-            <Route path='/projects' element={<Projects />}/>
+            <Route path='/projects' element={<Projects />}/> 
+            <Route path='/projects/calculator' element={<Calculator />}/>
             <Route path='/contact' element={<Contact />} />
           </Route>
         </Routes>
