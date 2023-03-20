@@ -1,8 +1,15 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
   }
+
+body{
+  margin: none;
+}
+.nav-container{
+  background: linear-gradient(#414141, rgb(192, 192, 192));
+  height: 10vh;
+}
   .nav-wrapper{
     position: fixed;
     top: 0;
@@ -11,10 +18,10 @@
     height: 100%;
     width: 100%;
     /* background: #000; */
-    background: linear-gradient(90deg, #000000, #464646);
+    background: linear-gradient(90deg, #020202, #464646);
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
     transition: all 0.6s ease-in-out;
-    opacity: 70%;
+    opacity: 80%;
   }
   #active:checked ~ .nav-wrapper{
     left: 0;
@@ -36,7 +43,7 @@
     /* color: #fff;
     background: linear-gradient(90deg, #f92c78, #4114a1); */
     /* background: linear-gradient(375deg, #1cc7d0, #2ede98); */
-    background: linear-gradient(-45deg, #000000 0%, #ffffff 100%);
+    background: linear-gradient(-45deg, #5cbdfd 0%, #ffffff 100%);
     transition: all 0.3s ease-in-out;
   }
   .nav-menu-btn span,
