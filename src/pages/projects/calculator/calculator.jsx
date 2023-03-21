@@ -135,6 +135,7 @@ function Calculator() {
 
   return (
     <div className="calculator-container">
+      <p> <a href="https://github.com/NotAlxT/alex-personal-portfolio/tree/main/src/pages/projects/calculator" target="_blank" >Code</a></p>
       <div className="calculator-grid">
         <div className="output"> 
           <div className="previous-cal">{formatOperand (previousOperand)} {operation}</div>
