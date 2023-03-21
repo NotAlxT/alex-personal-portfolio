@@ -10,6 +10,8 @@ import Footer from './components/footer/footer.jsx';
 import Projects from './pages/projects/projects';
 import Contact from './pages/contact/contact';
 import Calculator from './pages/projects/calculator/calculator.jsx'
+import ClockTimer from './pages/projects/clock-timer/clock-timer.jsx'
+import Timer from './pages/projects/clock-timer/timer';
 
 export default function App() {
   return (
@@ -21,6 +23,7 @@ export default function App() {
             <Route path='/resume' element={<Resume />} />
             <Route path='/projects' element={<Projects />}/> 
             <Route path='/projects/calculator' element={<Calculator />}/>
+            <Route path='/projects/clock-timer' element={<Timer />}/>
             <Route path='/contact' element={<Contact />} />
           </Route>
         </Routes>

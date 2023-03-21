@@ -24,7 +24,7 @@ export default function Projects() {
             <p>Weather Info</p>
           </div>
         </Link>
-        <Link className="clock"to='./clock'>
+        <Link className="clock"to='./clock-timer'>
           <div >
             <h1>Clock</h1>
             <p>Clock Info</p>
