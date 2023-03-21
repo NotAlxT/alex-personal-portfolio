@@ -10,14 +10,17 @@
     border-radius: 40px;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(rgba(116, 116, 116,.5),rgba(255, 255, 255,.5))
 }
 
 .calculator:hover, .todo-list:hover, .weather-app:hover, .clock:hover{
     text-decoration: none;
+    color: brown;
 }
 
 .project-container{
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    background: linear-gradient(rgb(255, 255, 255),rgb(2, 2, 2))
 }
