@@ -32,7 +32,7 @@ export default function ClockTimer() {
             updatedM++;
             updatedS = 0;
         }
-        if(updatedMs === 100){
+        if(updatedMs === 99){
             updatedS++;
             updatedMs = 0
         }
@@ -41,7 +41,7 @@ export default function ClockTimer() {
     };
   return (
     <div>
-        <Timer time={time} resume={resume} reset={reset} stop={stop} start={start}/>
+        <Timer time={time} resume={resume} reset={reset} stop={stop} start={start} status={status}/>
     </div>
   )
 }

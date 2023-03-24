@@ -1,0 +1,13 @@
+.resume-main-container{
+    display: flex;
+    justify-content: center;
+    margin: none;
+}
+
+.resume-container{
+    height: auto;
+    background-color: rgb(119, 119, 119);
+    height: 100em;
+    width: 70%;
+
+}
