@@ -6,8 +6,43 @@
 
 .resume-container{
     height: auto;
-    background-color: rgb(119, 119, 119);
+    background-color: rgb(243, 243, 243);
     height: 100em;
-    width: 70%;
+    width: 60%;
+    border-radius: 10px;
+}
 
+.resume-heading{
+    background-color: rgb(197, 197, 197);
+    height: 15rem;
+    border-radius: 10px;
+}
+
+.resume-name{
+    justify-content: center;
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 50px;
+    font-family: 'Alkatra' ;
+}
+
+.resume-title{
+    justify-content: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.resume-contact{
+    text-align: center;
+    padding-top: 1rem;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.resume-education{
+    text-transform: uppercase;
+    margin: 5rem 7rem;
+    font-family: 'Alkatra';
+    font-size: 25px;
+    color: rgb(192, 32, 32);
 }
