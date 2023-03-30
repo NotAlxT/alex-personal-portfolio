@@ -1,11 +1,7 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: none;
+    padding: none;
   }
-
-body{
-  margin: none;
-}
 .nav-container{
   background: linear-gradient(#414141, rgb(158, 158, 158),white);
   height: 10vh;

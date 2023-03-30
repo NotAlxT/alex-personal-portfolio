@@ -23,7 +23,7 @@ export default function App() {
             <Route path='/resume' element={<Resume />} />
             <Route path='/projects' element={<Projects />}/> 
             <Route path='/projects/calculator' element={<Calculator />}/>
-            <Route path='/projects/clock-timer' element={<Timer />}/>
+            <Route path='/projects/clock-timer' element={<ClockTimer />}/>
             <Route path='/contact' element={<Contact />} />
           </Route>
         </Routes>
