@@ -1,0 +1,39 @@
+.home-main-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("https://user-images.githubusercontent.com/112426567/220405987-db6f174d-8753-4adc-9f28-c7d32cf2ce97.gif");
+    background-position-y: -30px;
+    background-size: cover;
+    margin: auto;
+}
+
+.home-container{
+    background-color: black;
+    width: 95%;
+    height: 100vh;
+    border-radius: 10px;
+    margin-top: 7vh;
+    margin-bottom: 7vh;
+    
+}
+
+.home-box-1{
+    flex-direction: row;
+    width: 30%;
+    height: 40vh;
+    margin-top: 2vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 20px;
+    background: linear-gradient( 45deg,rgba(0, 0, 0, 0.1),rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1),rgba(0, 0, 0, 0.1));
+}
+.home-box-2{
+    width: 30%;
+    height: 40vh;
+    margin-top: 2vh;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    border-radius: 20px;
+    background: linear-gradient( 45deg,rgba(0, 0, 0, 0.1),rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.1),rgba(0, 0, 0, 0.1));
+}
