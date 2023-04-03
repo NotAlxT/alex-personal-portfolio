@@ -4,6 +4,7 @@ import './home.css'
 export default function Home() {
   return (
     <div>
+      {/* change */}
       <div className="home-main-container">
         <div className="home-container">
           <div className="home-hero" >
